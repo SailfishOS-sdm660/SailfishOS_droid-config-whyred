@@ -1,10 +1,10 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for cheeseburger configurations
-Name: jolla-configuration-cheeseburger
+Description: Pattern with packages for whyred configurations
+Name: jolla-configuration-whyred
 Requires:
-- pattern:jolla-hw-adaptation-cheeseburger
+- pattern:jolla-hw-adaptation-whyred
 
 - patterns-sailfish-applications
 - patterns-sailfish-ui
@@ -37,5 +37,5 @@ Requires:
 # to improve camera startup times and the like
 #- mapplauncherd-booster-silica-qt5-media
 
-Summary: Jolla Configuration cheeseburger
+Summary: Jolla Configuration whyred
 

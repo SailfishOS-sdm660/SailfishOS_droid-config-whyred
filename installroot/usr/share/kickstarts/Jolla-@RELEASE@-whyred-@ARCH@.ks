@@ -1,7 +1,7 @@
-# DisplayName: Jolla cheeseburger/@ARCH@ (release) 1
+# DisplayName: Jolla whyred/@ARCH@ (release) 1
 # KickstartType: release
-# DeviceModel: cheeseburger
-# DeviceVariant: cheeseburger
+# DeviceModel: whyred
+# DeviceVariant: whyred
 # SuggestedImageType: fs
 # SuggestedArchitecture: armv7hl
 
@@ -15,17 +15,17 @@ part / --size 500 --ondisk sda --fstype=ext4
 
 ## No suitable configuration found in /tmp/sandbox/usr/share/ssu/kickstart/bootloader
 
-repo --name=adaptation-community-common-cheeseburger-@RELEASE@ --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/common/sailfish_latest_@ARCH@/
+repo --name=adaptation-community-common-whyred-@RELEASE@ --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/common/sailfish_latest_@ARCH@/
 repo --name=apps-@RELEASE@ --baseurl=https://releases.jolla.com/jolla-apps/@RELEASE@/@ARCH@/
 repo --name=hotfixes-@RELEASE@ --baseurl=https://releases.jolla.com/releases/@RELEASE@/hotfixes/@ARCH@/
 repo --name=jolla-@RELEASE@ --baseurl=https://releases.jolla.com/releases/@RELEASE@/jolla/@ARCH@/
 
 %packages
-@Jolla Configuration cheeseburger
+@Jolla Configuration whyred
 %end
 
 %attachment
-### Commands from /tmp/sandbox/usr/share/ssu/kickstart/attachment/cheeseburger
+### Commands from /tmp/sandbox/usr/share/ssu/kickstart/attachment/whyred
 /boot/hybris-boot.img
 /boot/hybris-updater-script
 /boot/hybris-updater-unpack.sh
@@ -108,9 +108,9 @@ if [ -n "$IMG_NAME" ]; then
     echo "BUILD: $IMG_NAME" >> $INSTALL_ROOT/etc/meego-release
 fi
 ### end 01_release
-### begin cheeseburger
+### begin whyred
 cp $INSTALL_ROOT/etc/sailfish-release $IMG_OUT_DIR
-### end cheeseburger
+### end whyred
 %end
 
 %pack
@@ -118,7 +118,7 @@ export SSU_RELEASE_TYPE=release
 ### begin hybris
 pushd $IMG_OUT_DIR
 
-DEVICE=cheeseburger
+DEVICE=whyred
 
 VERSION_FILE=./sailfish-release
 source $VERSION_FILE

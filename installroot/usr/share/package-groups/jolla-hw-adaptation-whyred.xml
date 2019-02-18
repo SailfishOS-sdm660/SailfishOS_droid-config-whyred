@@ -1,22 +1,22 @@
 <pattern xmlns:rpm="http://linux.duke.edu/metadata/rpm" xmlns="http://novell.com/package/metadata/suse/pattern">
-  <name>jolla-hw-adaptation-cheeseburger</name>
+  <name>jolla-hw-adaptation-whyred</name>
   <version ver="1" epoch="0" rel="1"/>
-  <summary>Jolla HW Adaptation cheeseburger</summary>
-  <description>Pattern with packages for cheeseburger HW Adaptation</description>
+  <summary>Jolla HW Adaptation whyred</summary>
+  <description>Pattern with packages for whyred HW Adaptation</description>
   <uservisible/>
   <category lang="en">Base Group</category>
   <rpm:requires>
-    <rpm:entry name="droid-hal-cheeseburger"/>
-    <rpm:entry name="droid-hal-cheeseburger-img-boot"/>
-    <rpm:entry name="droid-hal-cheeseburger-kernel-modules"/>
-    <rpm:entry name="droid-config-cheeseburger-sailfish"/>
-    <rpm:entry name="droid-config-cheeseburger-pulseaudio-settings"/>
-    <rpm:entry name="droid-config-cheeseburger-policy-settings"/>
-    <rpm:entry name="droid-config-cheeseburger-preinit-plugin"/>
-    <rpm:entry name="droid-config-cheeseburger-flashing"/>
-    <rpm:entry name="droid-config-cheeseburger-bluez5"/>
-    <rpm:entry name="droid-hal-version-cheeseburger"/>
-    <rpm:entry name="droid-hal-cheeseburger-detritus"/>
+    <rpm:entry name="droid-hal-whyred"/>
+    <rpm:entry name="droid-hal-whyred-img-boot"/>
+    <rpm:entry name="droid-hal-whyred-kernel-modules"/>
+    <rpm:entry name="droid-config-whyred-sailfish"/>
+    <rpm:entry name="droid-config-whyred-pulseaudio-settings"/>
+    <rpm:entry name="droid-config-whyred-policy-settings"/>
+    <rpm:entry name="droid-config-whyred-preinit-plugin"/>
+    <rpm:entry name="droid-config-whyred-flashing"/>
+    <rpm:entry name="droid-config-whyred-bluez5"/>
+    <rpm:entry name="droid-hal-version-whyred"/>
+    <rpm:entry name="droid-hal-whyred-detritus"/>
     <rpm:entry name="libhybris-libEGL"/>
     <rpm:entry name="libhybris-libGLESv2"/>
     <rpm:entry name="libhybris-libwayland-egl"/>

@@ -1,20 +1,20 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for cheeseburger HW Adaptation
-Name: jolla-hw-adaptation-cheeseburger
+Description: Pattern with packages for whyred HW Adaptation
+Name: jolla-hw-adaptation-whyred
 Requires:
-- droid-hal-cheeseburger
-- droid-hal-cheeseburger-img-boot
-- droid-hal-cheeseburger-kernel-modules
-- droid-config-cheeseburger-sailfish
-- droid-config-cheeseburger-pulseaudio-settings
-- droid-config-cheeseburger-policy-settings
-- droid-config-cheeseburger-preinit-plugin
-- droid-config-cheeseburger-flashing
-- droid-config-cheeseburger-bluez5
-- droid-hal-version-cheeseburger
-- droid-hal-cheeseburger-detritus
+- droid-hal-whyred
+- droid-hal-whyred-img-boot
+- droid-hal-whyred-kernel-modules
+- droid-config-whyred-sailfish
+- droid-config-whyred-pulseaudio-settings
+- droid-config-whyred-policy-settings
+- droid-config-whyred-preinit-plugin
+- droid-config-whyred-flashing
+- droid-config-whyred-bluez5
+- droid-hal-version-whyred
+- droid-hal-whyred-detritus
 
 # Hybris packages
 - libhybris-libEGL
@@ -79,5 +79,5 @@ Requires:
 #- qt5-qtmultimedia-plugin-mediaservice-irisradio
 #- jolla-mediaplayer-radio
 
-Summary: Jolla HW Adaptation cheeseburger
+Summary: Jolla HW Adaptation whyred
 

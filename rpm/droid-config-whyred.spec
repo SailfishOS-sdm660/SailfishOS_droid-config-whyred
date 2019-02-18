@@ -1,9 +1,9 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
-%define device cheeseburger
-%define vendor oneplus
+%define device whyred
+%define vendor xiaomi
 
-%define vendor_pretty OnePlus
-%define device_pretty OnePlus 5
+%define vendor_pretty Xiaomi
+%define device_pretty Redmi Note 5
 
 # Sailfish OS is considered to-scale, if in app grid you get 4-in-a-row icons
 # and 2x2 or 3x3 covers when up-to-4 or 5-or-more apps are open respectively.

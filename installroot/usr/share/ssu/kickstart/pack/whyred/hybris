@@ -1,6 +1,6 @@
 pushd $IMG_OUT_DIR
 
-DEVICE=cheeseburger
+DEVICE=whyred
 
 VERSION_FILE=./sailfish-release
 source $VERSION_FILE

@@ -1,12 +1,12 @@
 <pattern xmlns:rpm="http://linux.duke.edu/metadata/rpm" xmlns="http://novell.com/package/metadata/suse/pattern">
-  <name>jolla-configuration-cheeseburger</name>
+  <name>jolla-configuration-whyred</name>
   <version ver="1" epoch="0" rel="1"/>
-  <summary>Jolla Configuration cheeseburger</summary>
-  <description>Pattern with packages for cheeseburger configurations</description>
+  <summary>Jolla Configuration whyred</summary>
+  <description>Pattern with packages for whyred configurations</description>
   <uservisible/>
   <category lang="en">Base Group</category>
   <rpm:requires>
-    <rpm:entry name="pattern:jolla-hw-adaptation-cheeseburger"/>
+    <rpm:entry name="pattern:jolla-hw-adaptation-whyred"/>
     <rpm:entry name="patterns-sailfish-applications"/>
     <rpm:entry name="patterns-sailfish-ui"/>
     <rpm:entry name="patterns-sailfish-cellular-apps"/>
